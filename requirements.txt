@@ -1,7 +1,8 @@
-Flask
-gunicorn
+flask
+flask_cors
+pytesseract
 opencv-python
 tensorflow
-keras
-pytesseract
-
+gunicorn
+numpy
+Pillow
