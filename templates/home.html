@@ -1,0 +1,105 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BrailleDot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/static/CSS/bootstrap.min.css" />
+<link rel="stylesheet" href="/static/css1/home.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/static/images/logo.png" alt="Braille Logo" />
+        <ul>
+          <li><a href="/"><u>Home</u></a></li>
+          <li><a href="#service"><u>Service</u></a></li>
+          <li><a href="/learnbraille"><u>Learn Braille</u></a></li>
+          
+        </ul>
+      </nav>
+
+      <h1>Braille Translator</h1>
+      <p>
+        Let's Ease the Braille Traslation. Get your content translated in
+        Braille in minutes!!
+      </p>
+      <a href="#service" class="cta">Get Started</a>
+    </header>
+    <main>
+      <section id="service">
+        <h2>Our Services</h2>
+        <div class="service-container">
+          <div class="service">
+            <img src="/static/images/logo.png" alt="Service 1" />
+            <p>Converts the English text into equivalent Braille Text</p>
+            <form action="/engtext2braille" method="post" align="center">
+              <input
+                type="submit"
+                name="et2b"
+                value="English Text to Braille"
+                align="center"
+              />
+            </form>
+          </div>
+          <div class="service">
+            <img src="/static/images/logo.png" alt="Service 2" />
+            <p>Converts the English Image text into equivalent Braille Text</p>
+            <form action="/engimg2braille" method="post" align="center">
+              <input
+                type="submit"
+                name="ei2b"
+                value="English Images To Braille"
+                align="center"
+              />
+            </form>
+          </div>
+          <div class="service">
+            <img src="/static/images/logo.png" alt="Service 3" />
+            <p>Converts the Braille text into equivalent English Text</p>
+            <form action="/brailletext2eng" method="post" align="center">
+              <input
+                type="submit"
+                name="bt2e"
+                value="Braille Text To English"
+                align="center"
+              />
+            </form>
+          </div>
+          <div class="service">
+            <img src="/static/images/logo.png" alt="Service 4" />
+            <p>Converts the Braille Image text into equivalent English Text</p>
+            <form action="/brailleimg2eng" method="post" align="center">
+              <input
+                type="submit"
+                name="bi2e"
+                value="Braille Image to English"
+                align="center"
+              />
+            </form>
+          </div>
+        </div>
+        
+      </section>
+      <!-- <section id="team">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae expedita alias id deserunt aliquid enim magni, temporibus accusamus placeat tempora nostrum cum, architecto perspiciatis sint consectetur voluptatibus ipsam debitis. Suscipit.</p>
+            </section>
+            <section id="contact">
+                <h2>Get in Touch</h2>
+                <form action="submit-form.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <button type="submit"></button>
+                </form>
+            </section> -->
+    </main>
+    <!-- <footer>
+            <p>Copyright &copy; Braille Translator 2024</p>
+        </footer> -->
+    
+  </body>
+</html>
